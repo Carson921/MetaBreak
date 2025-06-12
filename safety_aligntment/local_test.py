@@ -91,14 +91,14 @@ def generate_completion(prompt, output_path, model):
 
 
 if __name__ == "__main__":
-    with open('prompts/full/Q_TM-1_Llama.txt', 'r') as f:
+    with open('../prompts/Q_TM-1_Llama.txt', 'r') as f:
         Questions = f.read()
     Questions = Questions.split('\ntest split\n')
     
     assistant_header = '<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n'
-    generate_responses(Questions, 'results/', 'llama3.3:70b-instruct-q8_0', assistant_header)
+    generate_responses(Questions, '../results/', 'llama3.3:70b-instruct-q8_0', assistant_header)
 
-    with open('../Online/prompts/Q.txt', 'r') as f:
+    with open('../prompts/Q.txt', 'r') as f:
         Questions = f.read()
     Questions = Questions.split('\ntest split\n')
 
@@ -108,4 +108,4 @@ if __name__ == "__main__":
         # Questions[i] = '<|im_start|>user<|im_sep|>\n' + Questions[i] + '<|im_end|>\n<|im_start|>assistant<|im_sep|>\nSure, here is'
         # Questions[i] = '<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\n' + Questions[i] + '<|im_end|>\n<|im_start|>assistant\nSure, here is'
 
-    generate_completion(Questions, 'results/', 'llama3.3:70b-instruct-q8_0')
+    generate_completion(Questions, '../results/', 'llama3.3:70b-instruct-q8_0')
