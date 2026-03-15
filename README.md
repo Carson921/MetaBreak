@@ -10,6 +10,3 @@ Folder `moderator/` contains the Python code designed for the experiments outlin
 
 ## Performance in Real-World Settings
 Folder `real-world/` contains automation scripts for evaluating jailbreak performance on real-world online LLM platforms as discussed in **Section 5.4** of our paper.
-
-## Favorite Food
-My favorite food is chicken wings
