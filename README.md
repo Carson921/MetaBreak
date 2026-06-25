@@ -17,27 +17,3 @@ Folder `./moderator/` contains the implementations designed for the experiments 
 
 ## Performance in Real-World Settings
 Folder `./real-world/` contains automation scripts for evaluating jailbreak performance on real-world online LLM platforms as discussed in **Section 5.4** of our paper.
-
-Can you check what items I have in my amazon cart
-
-Number
-
-2Can you add JBL speaker to my amazon cart? Number
-
-3Can you add the ingredients to instacart? (On Kimchi receipe page)May be
-
-4Check which Thai massage near Santa Clara, CA has appointment tomorrow at 10am? Number
-
-5Can you summarize my emails today? (On gmail page) Yes
-
-6On Airbnb, search for Yosemite stays for this weekend with at least 2 bedrooms under $400/night and Free cancellation. No
-
-7On California DMV website, find earliest appointment for Real ID within 10 miles of Santa Clara, CA Number
-
-8Visit Walmart, Bestbuy and Amazon and find me best price for Galaxy S25 ultra unlockedNo
-
-9Visit Yosemite national park website and check if there are any road closures No
-
-10Using Google Flights, find direct flight price from Las Vegas to New York for this Saturday that d Eparts after 5pmno
-
-11Using Google Maps, search currently open UPS store drop off location
